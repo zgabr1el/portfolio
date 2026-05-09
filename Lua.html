@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>st1yler´s dev</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230e0e0e'/%3E%3Ctext x='50' y='68' font-family='Inter,Arial' font-size='56' fill='%23ffffff' text-anchor='middle'%3EG%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <meta name="theme-color" content="#000000">
+</head>
+
+<body>
+
+<nav>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#scripting">Scripting</a>
+    <a href="#modeling">Modeling</a>
+    <a href="#payments">Payments</a>
+    <a href="#hire">Hire</a>
+  </div>
+  
+  <div class="search-container">
+    <div class="search-icon" id="searchIcon">
+      <i class="fas fa-search"></i>
+    </div>
+    <input 
+      type="text" 
+      class="search-input" 
+      id="searchInput" 
+      placeholder="Search projects..." 
+      autocomplete="off"
+    >
+    <div class="search-close" id="searchClose">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</nav>
+
+<section id="about" class="hero">
+  <div>
+    <h1>st1yler´s dev</h1>
+    <p>
+      Roblox Developer specialized in advanced scripting systems and high-quality modeling,
+      with experience building scalable game architectures using Rojo and structured
+      development workflows for professional Roblox projects.
+    </p>
+  </div>
+  <img src="static/profile.png" alt="Profile picture of st1yler">
+</section>
+
+<section id="scripting">
+  <h2>Scripting — Past Works</h2>
+  
+  <div class="videos-grid" id="videosGrid">
+    <div class="video-card-compact" data-video-id="1151425867" data-title="Advanced Movement" data-description="Physics-based character controller" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1151425867?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Advanced Movement</div>
+      <div class="video-description">Physics-based character controller</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1151425774" data-title="Advanced Animation" data-description="State machines & blending system" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1151425774?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Advanced Animation</div>
+      <div class="video-description">State machines & blending system</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1151425881" data-title="PBZ Complete Game" data-description="Ai Bossfight And Zombies, Leveling, Game modes, scallabe, easy to handle the rounds system and the diferents difficults" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1151425881?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">PBZ Complete Game</div>
+      <div class="video-description">Ai Bossfight And Zombies, Leveling, Game modes, scallabe, easy to handle the rounds system and the diferents difficults</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1155631862" data-title="Shop UI DATASTORE" data-description="Modular Shop UI with Datastore integration and easy way to manage items" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1155631862?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Shop UI DATASTORE</div>
+      <div class="video-description">Modular Shop UI with Datastore integration and easy way to manage items</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1155631838" data-title="Modular Map Round System team-based" data-description="Modular map round system with easy way to manage rounds and maps, only adding the name of the map in a workspace folder, and the thumbnail in the model poperties!" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1155631838?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Modular Map Round System team-based</div>
+      <div class="video-description">Modular map round system with easy way to manage rounds and maps, only adding the name of the map in a workspace folder, and the thumbnail in the model poperties!</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1155631800" data-title="Physics-based Smart Plants" data-description="Dynamic Spectate system, with filters by team and friends spectate, easy to use and add in your game , Optimized , made with only 1 script for all the plants possible!" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1155631800?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Physics-based Smart Plants</div>
+      <div class="video-description">Dynamic Spectate system, with filters by team and friends spectate, easy to use and add in your game , Optimized , made with only 1 script for all the plants possible!</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1155631827" data-title="Modular Spectate system" data-description="Dynamic Spectate system, with filters by team and friends spectate, easy to use and add in your game with your own ui style!" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1155631827?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Modular Spectate system</div>
+      <div class="video-description">Dynamic Spectate system, with filters by team and friends spectate, easy to use and add in your game with your own ui style!</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1151425860" data-title="Dialog NPC" data-description="Branching dialogue system" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1151425860?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Dialog NPC</div>
+      <div class="video-description">Branching dialogue system</div>
+    </div>
+
+    <div class="video-card-compact" data-video-id="1151425929" data-title="Advanced FPS Gun Framework" data-description="Realistic FPS weapons with custom animations" data-category="scripting">
+      <div class="video-thumbnail">
+        <iframe src="https://player.vimeo.com/video/1151425929?badge=0&autopause=0&player_id=0&app_id=58479&background=1&autoplay=0&loop=1&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <div class="play-overlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="video-title">Advanced FPS Gun Framework</div>
+      <div class="video-description">Realistic FPS weapons with custom animations</div>
+    </div>
+  </div>
+</section>
+
+<div class="video-modal" id="videoModal">
+  <div class="mac-video-window">
+    <div class="mac-video-header">
+      <div class="mac-controls">
+        <div class="mac-video-dot mac-video-red" id="closeVideoModal"></div>
+        <div class="mac-video-dot mac-video-yellow" id="minimizeVideo"></div>
+        <div class="mac-video-dot mac-video-green" id="fullscreenVideo"></div>
+      </div>
+      <div class="video-title-bar" id="videoModalTitle">Video Preview</div>
+      <div style="width: 60px;"></div>
+    </div>
+    <div class="mac-video-content">
+      <iframe id="expandedVideo" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<section id="modeling">
+  <h2>Modeling — Past Works</h2>
+  <div class="grid">
+    <div class="card" data-title="bundles" data-description="bundles and characters" data-category="modeling">
+      <h3>bundles</h3>
+      <small class="subtitle">bundles and characters</small>
+      <img src="static/modeling/bundles/bundle1.png" alt="Bundle 1">
+      <img src="static/modeling/bundles/bundle2.png" alt="Bundle 2">
+      <img src="static/modeling/bundles/bundle3.png" alt="Bundle 3">
+      <img src="static/modeling/bundles/bundle4.png" alt="Bundle 4">
+      <img src="static/modeling/bundles/bundle5.png" alt="Bundle 5">
+    </div>
+    <div class="card" data-title="mapping" data-description="mapping and housing" data-category="modeling">
+      <h3>mapping</h3>
+      <small class="subtitle">mapping and housing</small>
+      <img src="static/modeling/mapping/map1.png" alt="Map 1">
+      <img src="static/modeling/mapping/map2.png" alt="Map 2">
+      <img src="static/modeling/mapping/map3.png" alt="Map 3">
+      <img src="static/modeling/mapping/map4.png" alt="Map 4">
+      <img src="static/modeling/mapping/map5.png" alt="Map 5">
+    </div>
+    <div class="card" data-title="weapons" data-description="weapons and accessories" data-category="modeling">
+      <h3>weapons</h3>
+      <small class="subtitle">weapons and accessories</small>
+      <img src="static/modeling/weapons/weapon1.png" alt="Weapon 1">
+      <img src="static/modeling/weapons/weapon2.png" alt="Weapon 2">
+      <img src="static/modeling/weapons/weapon3.png" alt="Weapon 3">
+      <img src="static/modeling/weapons/weapon4.png" alt="Weapon 4">
+      <img src="static/modeling/weapons/weapon5.png" alt="Weapon 5">
+    </div>
+  </div>
+</section>
+
+<section id="payments">
+  <h2>Payments</h2>
+  <div class="card">
+    <div class="payments-grid">
+      <div class="payment-card"><img src="static/payments/payment1.png" alt="payment 1"></div>
+      <div class="payment-card"><img src="static/payments/payment2.png" alt="payment 2"></div>
+      <div class="payment-card"><img src="static/payments/payment3.png" alt="payment 3"></div>
+      <div class="payment-card"><img src="static/payments/payment4.png" alt="payment 4"></div>
+      <div class="payment-card"><img src="static/payments/payment5.png" alt="payment 5"></div>
+      <div class="payment-card"><img src="static/payments/payment6.png" alt="payment 6"></div>
+      <div class="payment-card"><img src="static/payments/payment7.png" alt="payment 7"></div>
+      <div class="payment-card"><img src="static/payments/payment8.png" alt="payment 8"></div>
+      <div class="payment-card"><img src="static/payments/payment9.png" alt="payment 9"></div>
+    </div>
+  </div>
+</section>
+
+<section id="hire">
+  <h2>Hire Me</h2>
+  <div class="card hire-card">
+    <a href="https://discord.com/users/1457880585279246479" target="_blank" class="hire-button">
+      <i class="fab fa-discord"></i>
+      Message Me on Discord
+      <span class="button-subtitle">Direct communication for project inquiries</span>
+    </a>
+    <div class="hire-text">
+      <h3>Available for Projects</h3>
+      <p>I'm currently available for Roblox scripting, modeling, and full-game development projects. Let's discuss your vision and bring it to life with professional-grade solutions.</p>
+      <div class="hire-features">
+        <div class="hire-feature">
+          <i class="fas fa-check-circle"></i>
+          <span>Custom Scripting Systems</span>
+        </div>
+        <div class="hire-feature">
+          <i class="fas fa-check-circle"></i>
+          <span>High-Quality 3D Models</span>
+        </div>
+        <div class="hire-feature">
+          <i class="fas fa-check-circle"></i>
+          <span>Scalable Game Architecture</span>
+        </div>
+        <div class="hire-feature">
+          <i class="fas fa-check-circle"></i>
+          <span>Optimized Performance</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact">
+    <a href="https://discord.com/users/1044626710_w" target="_blank" title="st1yler´s Discord">
+      <i class="fa-brands fa-discord"></i>
+    </a>
+    <a href="https://github.com/st1yler" target="_blank" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.roblox.com/users/10293637061/profile" target="_blank" title="Roblox">
+      <i class="fa-solid fa-play"></i>
+    </a>
+  </div>
+  <div class="copyright">
+    © 2026 st1yler. Todos los derechos reservados. Sypcho &amp; Asimcro.
+  </div>
+</footer>
+
+<div class="image-modal" id="imageModal" aria-hidden="true" role="dialog" aria-label="Media preview">
+  <div class="mac-window" role="document">
+    <div class="mac-header" aria-hidden="false">
+      <div class="mac-dot mac-red" id="closeModal" role="button" tabindex="0" aria-label="Close"></div>
+      <div class="mac-dot mac-yellow" role="button" tabindex="-1" aria-hidden="true"></div>
+      <div class="mac-dot mac-green" role="button" tabindex="-1" aria-hidden="true"></div>
+    </div>
+    <div class="modal-media">
+      <img id="modalImage" alt="Expanded image preview" style="display:none;">
+      <video id="modalVideo" controls controlsList="nofullscreen" disablePictureInPicture style="display:none;" aria-label="Expanded video preview"></video>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
